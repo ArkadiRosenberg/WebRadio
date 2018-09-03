@@ -1,0 +1,29 @@
+@import "../../../styles/colors";
+
+nav {
+    background: $color-dark-blue;
+    position: fixed;
+    top: 0;
+    height: 100%;
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 100px 0px 0px 0px;
+
+        li {
+
+            a {
+                color: #fff;
+                padding: 20px;
+                display: block;
+            }
+
+            .activated {
+                background-color: #00a8ff;
+            }
+
+        }
+    }
+    
+}

@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.app-sidebar {
+    order: 0;
+    width: 65px;
+}
+
+.right-panel {
+    order: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    // margin-left: 25px;
+    // margin-right: 25px; 
+}
+
+
+.app-top-panel {
+    order: 0;
+    height: 65px;
+}
+
+.content {
+    order: 1;
+    height: 100%;
+}

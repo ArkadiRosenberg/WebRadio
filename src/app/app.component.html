@@ -1,0 +1,9 @@
+<div class="container">
+  <app-sidebar class="app-sidebar"></app-sidebar>
+  <div class="right-panel">
+    <app-top-panel class="app-top-panel"></app-top-panel>
+    <div class="content">
+      <router-outlet (activate)='onActivate($event)'></router-outlet>
+    </div>
+  </div>
+</div>
